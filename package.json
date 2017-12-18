@@ -8,5 +8,12 @@
     "url": "https://github.com/whatchado/eslint-config-whatchado.git"
   },
   "author": "whatchado GmbH",
-  "license": "GNU General Public License (GPL)"
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.1.0"
+  }
 }
