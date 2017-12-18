@@ -1,8 +1,5 @@
 module.exports = {
-  env: {
-    node: true
-  },
-  extends: "eslint-config-whatchado/lib/common",
+  extends: "eslint-config-whatchado/base",
   rules: {
     "no-await-in-loop": "off",
     "no-mixed-operators": "off",

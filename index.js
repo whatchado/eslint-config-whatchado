@@ -1,1 +1,1 @@
-module.exports = require('./lib/backend.js');
+module.exports = require('./base.js');

@@ -1,9 +1,5 @@
 module.exports = {
-  env: {
-    node: true, // SSR
-    browser: true // browser
-  },
-  extends: ["eslint-config-whatchado/lib/common", "plugin:react/recommended"],
+  extends: ["eslint-config-whatchado/base", "plugin:react/recommended"],
   plugins: ["react"],
   rules: {
     // react rules

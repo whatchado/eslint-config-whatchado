@@ -1,22 +1,10 @@
 module.exports = {
-  parser: "babel-eslint",
-  parserOptions: {
-    ecmaVersion: 7,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: true
-    }
-  },
-  env: {
-    es6: true,
-    jest: true
-  },
   extends: ["airbnb", "plugin:import/errors", "plugin:import/warnings"],
   plugins: ["import"],
   rules: {
-    "import/no-extraneous-dependencies": ["off"],
-    "import/no-unresolved": ["warn"],
+    // general rules
     requireSemicolons: "off",
+    "no-tabs": "off",
     indent: [
       "error",
       "tab",
@@ -26,12 +14,11 @@ module.exports = {
       }
     ],
     "padded-blocks": ["error", { classes: "always" }],
-    "no-tabs": "off",
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
     "no-console": ["warn", { allow: ["error"] }],
     "no-param-reassign": [2, { props: false }],
-    semi: ["error", "never"],
     "func-names": ["error", "never"],
+    semi: ["error", "never"],
     "comma-dangle": [
       "error",
       {
@@ -41,6 +28,9 @@ module.exports = {
         exports: "never",
         functions: "ignore"
       }
-    ]
+    ],
+    // import rules
+    "import/no-extraneous-dependencies": ["off"],
+    "import/no-unresolved": ["warn"]
   }
 };
