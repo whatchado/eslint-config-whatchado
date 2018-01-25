@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-whatchado",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared ESLint configuration by whatchado",
   "main": "index.js",
   "repository": {
@@ -11,9 +11,9 @@
   "license": "MIT",
   "peerDependencies": {
     "eslint": "4.5.0",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "2.7.0",
-    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "7.1.0"
   }
 }
