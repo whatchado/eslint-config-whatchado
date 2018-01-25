@@ -25,12 +25,6 @@ module.exports = {
         afterOpening: "never"
       }
     ],
-    // import rules
-    "import/no-unresolved": ["warn"],
-    "import/extensions": [
-      1,
-      "never",
-      { svg: "always", scss: "always", css: "always", json: "always" }
-    ]
+
   }
 };

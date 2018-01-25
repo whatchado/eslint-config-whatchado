@@ -1,6 +1,5 @@
 module.exports = {
-  extends: ["airbnb", "plugin:import/errors", "plugin:import/warnings"],
-  plugins: ["import"],
+  extends: ["airbnb"],
   rules: {
     // general rules
     requireSemicolons: "off",
