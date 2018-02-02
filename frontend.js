@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["airbnb-base", "whatchado/base"],
+  extends: ["airbnb", "whatchado/base"],
   plugins: ["react"],
   rules: {
     // react rules
