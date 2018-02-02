@@ -4,14 +4,14 @@ module.exports = {
     // general rules
     requireSemicolons: "off",
     "no-tabs": "off",
-    indent: [
+   /* indent: [
       "error",
       "tab",
       {
         SwitchCase: 1,
         VariableDeclarator: 1
       }
-    ],
+    ],*/
     "padded-blocks": ["error", { classes: "always" }],
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
     "no-console": ["warn", { allow: ["error"] }],
