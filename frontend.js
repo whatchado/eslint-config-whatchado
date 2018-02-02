@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ["eslint-config-whatchado/base", "plugin:react/recommended"],
+  extends: [
+    "eslint-config-whatchado/base",
+    "plugin:react/recommended",
+    "prettier"
+  ],
   plugins: ["react"],
   rules: {
     // react rules
@@ -24,7 +28,6 @@ module.exports = {
         beforeSelfClosing: "never",
         afterOpening: "never"
       }
-    ],
-
+    ]
   }
 };
