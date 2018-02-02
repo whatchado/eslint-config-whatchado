@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    "eslint-config-whatchado/base",
-    "plugin:react/recommended",
-    "prettier"
-  ],
+  extends: ["airbnb-base", "whatchado/base"],
   plugins: ["react"],
   rules: {
     // react rules

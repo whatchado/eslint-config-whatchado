@@ -27,6 +27,6 @@ module.exports = {
         exports: "never",
         functions: "ignore"
       }
-    ],
+    ]
   }
 };

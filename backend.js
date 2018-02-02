@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["eslint-config-whatchado/base", "prettier"],
+  extends: ["whatchado/base"],
   rules: {
     "no-await-in-loop": "off",
     "no-mixed-operators": "off",
