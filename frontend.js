@@ -27,5 +27,20 @@ module.exports = {
 				afterOpening: 'never',
 			}
 		],
+		'class-methods-use-this': [
+			'error',
+			{
+				'exceptMethods': [
+					'componentDidMount',
+					'componentDidUpdate',
+					'componentWillMount',
+					'componentWillReceiveProps',
+					'componentWillUnmount',
+					'componentWillUpdate',
+					'render',
+					'shouldComponentUpdate',
+				]
+			}
+		],
 	},
 }
