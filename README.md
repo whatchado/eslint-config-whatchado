@@ -19,4 +19,4 @@ yarn add eslint-config-whatchado
 ```
 
 
-Our config package extends Airbnb's JS config, uses react and import plugins and adds some 'whatchado sugar' on top of it. Enjoy! 
+Our eslint config package sits on top of Airbnb's JS Styleguide. It extends eslint-config-airbnb (for frontend) and eslint-config-airbnb-base (for backend) packages and adds a bit of whatchado sugar to them. Enjoy! 
