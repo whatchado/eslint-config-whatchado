@@ -14,7 +14,7 @@ module.exports = {
 			'error',
 			{
 				arrays: 'never',
-				objects: 'always',
+				objects: 'never',
 				imports: 'never',
 				exports: 'never',
 				functions: 'ignore',
