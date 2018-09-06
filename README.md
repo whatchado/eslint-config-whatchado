@@ -13,9 +13,8 @@ yarn add eslint-config-whatchado
 2. Add one of these lines to your .eslintrc:
 
 ```
-"extends": "whatchado", // base rules
-"extends": "whatchado/backend"  // base + backend specific rules 
-"extends": "whatchado/frontend" // base + frontend specific rules (react)
+"extends": "whatchado/backend"  // backend specific rules 
+"extends": "whatchado/frontend" // frontend specific rules (react)
 ```
 
 
